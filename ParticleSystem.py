@@ -24,7 +24,7 @@ class ParticleSystem():
         self.particles = [p for p in self.particles if not p.isDead()]
 
     def isDead(self):
-        if self.age>500:
+        if self.age>255:
             return True
         else:
             return False
